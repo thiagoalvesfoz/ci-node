@@ -1,0 +1,22 @@
+{
+  "name": "challenge-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "sonar-scanner": "^3.1.0",
+    "supertest": "^6.1.3"
+  }
+}
